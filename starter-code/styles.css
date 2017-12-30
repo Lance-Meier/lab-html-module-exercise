@@ -1,0 +1,261 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  line-height: 1.35;
+}
+h1, h2, h3, p, .collab-info ul {
+  color: #FFF;
+}
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+nav, nav a, header, #search-icon, .header-link p, .header-link a {
+  color: rgba(255,255,255,0.8);
+}
+nav {
+  background: #C12127;
+  height: 30px;
+  padding-top: 10px;
+}
+nav a {
+  font-size: 14px;
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+.acronym {
+  margin: 0 0 0 20px;
+}
+.top-left{
+  display: inline-block;
+  margin: 0 0 10px 20px;
+  padding: 0;
+}
+.top-links {
+  display: block;
+  float: right;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 15px 0 15px;
+}
+.top-links li a:hover, .acronym:hover, .header-link a:hover{
+  color: rgba(255,255,255,1);
+}
+header {
+  background-color: rgb(31,101,136);
+  background-image: url("images/city-scape.svg");
+  background-size: cover;
+  height: 443px;
+}
+.header-top {
+  height: 90px;
+  margin: 0 auto;
+  padding: 20px 20px 0 20px;
+}
+.header-logo, .header-search, .header-link {
+  float: left;
+}
+.header-search {
+  width: 71%;
+  padding: 0 10px 0 20px;
+  font-size: 1em;
+}
+.search-entry, .search-btn, .search-entry input {
+  background-color: rgb(31,82,111);
+}
+.search-entry, .search-btn {
+  display: block;
+  float: left;
+}
+.search-entry {
+  width: 89%;
+  margin: 0;
+}
+.search-entry input {
+  width: 100%;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 10px 0 10px 10px;
+}
+.search-btn {
+  border: 1px solid rgba(255,255,255,0.2);
+  width: 10%;
+  height: 42px;
+}
+#search-icon {
+  background-color: transparent;
+  border: none;
+  padding: 6px 0 0 24px;
+  width: 100%;
+}
+.header-link p, a {
+  text-decoration: none;
+}
+.bear-link {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+.tagline {
+  width: 80%;
+  margin: 0 auto;
+}
+.tagline-offset {
+  width: 55%;
+}
+.cta-btn {
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.1em;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+}
+.sign-up-orange {
+  background-color: rgb(240, 146, 51);
+  width: 30%;
+}
+.sign-up-orange:hover {
+  background-color: #e97e11;
+}
+.collaboration-cont {
+  background-color: rgb(39, 53, 71);
+  height: 582px;
+}
+.collab-box {
+  height: 342px;
+  margin: 0 auto;
+  padding: 120px 10px;
+  width: 80%;
+}
+.team-image {
+  float: left;
+  margin: 0 0 0 48px;
+  padding: 0 10px;
+  width: 45%;
+}
+.collab-info {
+  display: inline-block;
+  float: left;
+  padding: 0 10px 0 10px;
+  margin-left: 43px;
+  width: 42%
+}
+.collab-info h2 {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 46px;
+  margin-top: 0;
+  padding: 4px 0;
+}
+.collab-info ul {
+  font-size: 16px;
+  margin: 0 0 10.5px 0;
+  padding: 0 0 0 14px;
+}
+.collab-info ul li {
+  padding: 0 0 20px 23px;
+  text-indent: -23px;
+}
+.sign-up-red {
+  background-color: #cb3837;;
+  width: 40%;
+}
+.sign-up-red:hover {
+  background-color: #ac2e2d;
+}
+.collab-info p, .collab-info p a {
+  color: #e6e6e6;
+  font-weight 600;
+  text-decoration: none;
+  margin: 5px 0 0 0;
+}
+.collab-info p a {
+  font-weight: 400;
+}
+.collab-info p a:hover, .collab-info p a:focus {
+  text-decoration: underline;
+}
+.forklift-cont {
+  background-color: #206F9C;
+  background-image: url("images/forklift.svg");
+}
+.about-cont {
+  margin: 0 150px;
+  padding: 60px 10px;
+}
+.about-info {
+  display: inline-block;
+  margin: 40px 0 20px 35px;
+  padding: 0 10px 120px 0;
+  width: 40%;
+}
+.about-info p {
+  padding: 10px 0;
+}
+.sign-up-black {
+  background-color: #34495e;
+  width: 36%;
+}
+.sign-up-black:hover {
+  background-color: #253544;
+}
+.make {
+  background-color: #FFFFFF;
+}
+.make-cont {
+  margin: 10px auto;
+  padding: 60px 10px 300px 10px;
+}
+.make-cont h2, h3 {
+  color: rgb(83,88,98);
+}
+.make-cont p {
+  color: rgb(135,145,156);
+}
+.make-cont a {
+  color: rgb(208,74,73);
+}
+.make-top {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.make-cont h2 {
+  margin-bottom: 15px;
+}
+.make-mid {
+  margin: 50px 80px;
+  padding: 20px;
+}
+.third-width {
+  float: left;
+  margin: 0px;
+  text-align: center;
+  width: 33%;
+}
+.third-width p {
+  width: 80%;
+  margin: 0 auto;
+}
